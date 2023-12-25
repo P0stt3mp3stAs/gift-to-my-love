@@ -1,0 +1,28 @@
+.end {
+  height: 100vh;
+  width: 100%;
+  background-color: #ff5a79;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kiss {
+  color: white;
+  margin-top: 40%;
+  font-size: 40px;
+  width: 360px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #efc7ff;
+  text-align: center;
+}
+
+.infinity{
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  margin-bottom: 100%;
+}

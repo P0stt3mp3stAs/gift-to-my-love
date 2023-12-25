@@ -1,0 +1,40 @@
+.Answer {
+  flex: 1;
+  background-color: #efc7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer-btn {
+  height: 60px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #ce0076;
+  color: white;
+  font-size: large;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.options button {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: #ce0076;
+  color: white;
+  border: none;
+  margin: 0 50px;
+  transition: opacity 0.1s ease;
+}
+
+.options button.thank-button:hover {
+  opacity: 0;
+}
